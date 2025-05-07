@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+    <title>Gemini Chatbot- The Revolutionary Generative AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="app-header">
+            <h1 class="heading">Hello, there</h1>
+            <h2 class="sub-heading">How can I help you ?</h2>
+        </header>
+
+        <ul class="suggestions">
+            <li class="suggestions-item">
+                <p class="text">Design a home office setup office for remote work under $500</p>
+                <span class="material-symbols-outlined">
+                    draw
+                </span>
+            </li>
+            <li class="suggestions-item">
+                <p class="text">How can i level up my web development expertise in 2025?</p>
+                <span class="material-symbols-outlined">lightbulb
+                </span>
+            </li>
+            <li class="suggestions-item">
+                <p class="text">Suggest some useful tools for ebugging JavaScript code.</p>
+                <span class="material-symbols-outlined">
+                    explore
+                </span>
+            </li>
+            <li class="suggestions-item">
+                <p class="text">Create a React JS component for the simple todo list app</p>
+                <span class="material-symbols-outlined">
+                    code_blocks
+                </span>
+            </li>
+        </ul>
+
+        <div class="chats-container">
+            <div class="message user-message">
+                <!-- <p class="message">Explain some uses of Chatbots</p> -->
+
+            </div>
+            <div class="message bot-message">
+                <img src="gemini-chatbot-logo.svg"
+                    class="avatar">
+                <!-- <p class="message">Chatbots have a wide range of applications across different industries. Here are some common uses:
+
+                    Customer Support – Chatbots provide instant responses to customer queries, handling FAQs, troubleshooting issues, and offering 24/7 assistance.
+                    
+                    E-commerce & Sales – They assist shoppers by recommending products, tracking orders, answering questions, and even processing payments.
+                    
+                    Healthcare – Chatbots help schedule doctor appointments, provide medication reminders, offer basic health advice, and answer medical FAQs.
+                    
+                    Education & Training – They act as virtual tutors, assisting students with learning, answering academic questions, and even providing quizzes.
+                    
+                    Banking & Finance – Chatbots help users check account balances, transfer funds, set budget reminders, and provide fraud alerts.
+                    
+                    HR & Recruitment – Companies use chatbots for screening job candidates, scheduling interviews, and answering employee questions about policies and benefits.
+                    
+                    Marketing & Engagement – Businesses use chatbots for personalized marketing campaigns, lead generation, and interactive promotions.
+                    
+                    Entertainment & Social Media – Chatbots can recommend movies, books, or music based on user preferences, and even engage in casual conversations.
+                    
+                    Travel & Hospitality – They assist with booking flights, hotels, and providing travel recommendations or itinerary updates.
+                    
+                    Technical Support – IT chatbots help troubleshoot software/hardware issues, reset passwords, and guide users through complex processes.</p> -->
+                <p class=""> Hey There, How can i help you ?</p>
+            </div>
+        </div>
+
+        <div class="prompt-container">
+            <div class="prompt-wrapper">
+                <form action="#" class="prompt-form">
+                    <input type="text" placeholder="Ask to chatbot" class="prompt-input" required>
+                    <div class="prompt-actions">
+                        <button id="add-file-button" type="button"
+                            class="material-symbols-outlined">attach_file</button>
+                        <button id="send-prompt-btn" type="submit"
+                            class="material-symbols-outlined">arrow_upward</button>
+                    </div>
+                </form>
+                <button id="theme-toggle-btn" type="button" class="material-symbols-outlined">lightbulb</button>
+                <button id="delete-chats-btn" type="button" class="material-symbols-outlined">delete</button>
+            </div>
+
+            <p class="disclaimer-text" id="dsc">
+                Chatbot can make mistakes, so double check it from reliable source
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
